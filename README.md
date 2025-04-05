@@ -1,4 +1,4 @@
-This work, carried out during my internship at the LaMMA Consortium, aimed to develop a short-term precipitation forecasting method using deep learning models.
+This work aimed to develop a short-term precipitation forecasting method using deep learning models.
 The initial approach involved the use of a recurrent neural network, specifically an LSTM model, with input variables including temperature, relative humidity, 
 pressure, precipitable water vapor, cumulative rainfall, and temporal features such as month and day. This model yielded promising results, but its performance 
 significantly deteriorated when cumulative rainfall was excluded from the inputs. To address this limitation, a two-stage approach was introduced. In the first 
